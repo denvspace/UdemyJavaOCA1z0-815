@@ -8,7 +8,7 @@ public class EmployeeTest {
         employee1.doubleSalary();
         employee2.doubleSalary();
 
-        System.out.println(employee1.surnaame + " - оклад: " + employee1.salary + "$");
-        System.out.println(employee2.surnaame + " - оклад: " + employee2.salary + "$");
+        System.out.println(employee1.surname + " - оклад: " + employee1.salary + "$");
+        System.out.println(employee2.surname + " - оклад: " + employee2.salary + "$");
     }
 }

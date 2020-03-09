@@ -2,14 +2,14 @@ package Lesson5Homework;
 
 public class Employee {
     int id;
-    String surnaame;
+    String surname;
     int age;
     double salary;
     String department;
 
-    public Employee(int id, String surnaame, int age, double salary, String department) {
+    public Employee(int id, String surname, int age, double salary, String department) {
         this.id = id;
-        this.surnaame = surnaame;
+        this.surname = surname;
         this.age = age;
         this.salary = salary;
         this.department = department;
