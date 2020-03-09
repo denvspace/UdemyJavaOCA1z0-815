@@ -29,8 +29,12 @@ public class StudentTest {
         vanya.avgForeignLanguage = 8.6;
         vanya.avgEconomy = 7.3;
 
-        System.out.println("Студент: " + vasya.name + " " + vasya.surname + " средняя оценка по предметам - " + (vasya.avgEconomy+vasya.avgForeignLanguage+vasya.avgMaths)/3);
-        System.out.println("Студент: " + petya.name + " " + petya.surname + " средняя оценка по предметам - " + (petya.avgEconomy+petya.avgForeignLanguage+petya.avgMaths)/3);
-        System.out.println("Студент: " + vanya.name + " " + vanya.surname + " средняя оценка по предметам - " + (vanya.avgEconomy+vanya.avgForeignLanguage+vanya.avgMaths)/3);
+        printAvgGrade(vasya);
+        printAvgGrade(petya);
+        printAvgGrade(vanya);
+    }
+
+    public static void printAvgGrade (Student student) {
+        System.out.println("Студент: " + student.name + " " + student.surname + " средняя оценка по предметам - " + (student.avgEconomy+student.avgForeignLanguage+student.avgMaths)/3);
     }
 }
